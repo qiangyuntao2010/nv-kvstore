@@ -1,0 +1,539 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AGA_GET_U16	src/include/agigaram_smbus_interface.h	53;"	d
+AGA_GET_U32	src/include/agigaram_smbus_interface.h	48;"	d
+AGA_GET_VER_STR	src/include/agigaram_smbus_interface.h	57;"	d
+AR	IncludePre.mk	/^AR = ar$/;"	m
+AUXEEADDR	src/include/agigaram_lib.h	/^  AUXEEADDR = 0x11,$/;"	e	enum:agigaram_register_table
+BACKUP	src/include/agigaram_lib.h	/^  BACKUP        = 0xA,$/;"	e	enum:agigaram_register_table
+BACKUP_DISABLE	src/include/agigaram_lib.h	/^    BACKUP_DISABLE = 0x00,$/;"	e	enum:__anon2
+BACKUP_ENABLE	src/include/agigaram_lib.h	/^  BACKUP_ENABLE = 0x8,$/;"	e	enum:agigaram_register_table
+BACKUP_MODE_167PIN	src/include/agigaram_lib.h	/^    BACKUP_MODE_167PIN  = 0xEB,$/;"	e	enum:__anon2
+BACKUP_MODE_CKE_LOW	src/include/agigaram_lib.h	/^    BACKUP_MODE_CKE_LOW = 0xBF,$/;"	e	enum:__anon2
+BACKUP_MODE_PGEM_PIN	src/include/agigaram_lib.h	/^    BACKUP_MODE_PGEM_PIN = 0x04,$/;"	e	enum:__anon2
+BACKUP_RESULT	src/include/agigaram_lib.h	/^  BACKUP_RESULT = 0x14,$/;"	e	enum:agigaram_register_table
+BAKRSLT1	src/include/agigaram_lib.h	284;"	d
+BAKRSLT1	src/include/agigaram_lib.h	333;"	d
+BAKRSLT2	src/include/agigaram_lib.h	285;"	d
+BAKRSLT2	src/include/agigaram_lib.h	334;"	d
+BIT0	src/include/agigaram_lib.h	99;"	d
+BIT1	src/include/agigaram_lib.h	100;"	d
+BIT10	src/include/agigaram_lib.h	111;"	d
+BIT11	src/include/agigaram_lib.h	112;"	d
+BIT12	src/include/agigaram_lib.h	113;"	d
+BIT13	src/include/agigaram_lib.h	114;"	d
+BIT14	src/include/agigaram_lib.h	115;"	d
+BIT15	src/include/agigaram_lib.h	116;"	d
+BIT16	src/include/agigaram_lib.h	117;"	d
+BIT17	src/include/agigaram_lib.h	118;"	d
+BIT18	src/include/agigaram_lib.h	119;"	d
+BIT19	src/include/agigaram_lib.h	120;"	d
+BIT2	src/include/agigaram_lib.h	101;"	d
+BIT20	src/include/agigaram_lib.h	121;"	d
+BIT21	src/include/agigaram_lib.h	122;"	d
+BIT22	src/include/agigaram_lib.h	123;"	d
+BIT23	src/include/agigaram_lib.h	124;"	d
+BIT24	src/include/agigaram_lib.h	125;"	d
+BIT25	src/include/agigaram_lib.h	126;"	d
+BIT26	src/include/agigaram_lib.h	127;"	d
+BIT27	src/include/agigaram_lib.h	128;"	d
+BIT28	src/include/agigaram_lib.h	129;"	d
+BIT29	src/include/agigaram_lib.h	130;"	d
+BIT3	src/include/agigaram_lib.h	102;"	d
+BIT30	src/include/agigaram_lib.h	131;"	d
+BIT31	src/include/agigaram_lib.h	132;"	d
+BIT4	src/include/agigaram_lib.h	103;"	d
+BIT5	src/include/agigaram_lib.h	104;"	d
+BIT6	src/include/agigaram_lib.h	105;"	d
+BIT7	src/include/agigaram_lib.h	106;"	d
+BIT8	src/include/agigaram_lib.h	107;"	d
+BIT9	src/include/agigaram_lib.h	108;"	d
+BOOLEAN	src/include/agigaram_lib.h	/^typedef unsigned char BOOLEAN;$/;"	t
+BUSCHECK	src/include/agigaram_lib.h	/^  BUSCHECK      = 0x9,$/;"	e	enum:agigaram_register_table
+CANCEL_BACKUP	src/include/agigaram_lib.h	245;"	d
+CANCEL_RESTORE	src/include/agigaram_lib.h	248;"	d
+CAPACITANCE	src/include/agigaram_lib.h	392;"	d
+CAPHIST	src/include/agigaram_lib.h	282;"	d
+CAPHIST	src/include/agigaram_lib.h	386;"	d
+CAPHIST_SIZE	src/include/agigaram_lib.h	283;"	d
+CAPHIST_SIZE	src/include/agigaram_lib.h	387;"	d
+CAPMIVAL	src/include/agigaram_lib.h	278;"	d
+CAPMIVAL	src/include/agigaram_lib.h	331;"	d
+CAPPN	src/include/agigaram_lib.h	313;"	d
+CAPPN	src/include/agigaram_lib.h	402;"	d
+CAPPN_SIZE	src/include/agigaram_lib.h	314;"	d
+CAPPN_SIZE	src/include/agigaram_lib.h	403;"	d
+CAP_MEASURE	src/include/agigaram_lib.h	/^  CAP_MEASURE      = 0x6,$/;"	e	enum:agigaram_register_table
+CAP_MEASURE_STAUS	src/include/agigaram_lib.h	/^  CAP_MEASURE_STAUS= 0x7,$/;"	e	enum:agigaram_register_table
+CC	IncludePre.mk	/^CC = gcc$/;"	m
+CC	src/Makefile	/^CC = g++$/;"	m
+CC	test/Makefile	/^CC = g++$/;"	m
+CFLAGS	IncludePre.mk	/^CFLAGS = -I $(PROJ_ROOT)\/src\/include -g$/;"	m
+CHAR16	src/include/agigaram_lib.h	/^typedef unsigned short CHAR16;$/;"	t
+CHAR8	src/include/agigaram_lib.h	/^typedef unsigned char CHAR8;$/;"	t
+CHARGECUR	src/include/agigaram_lib.h	398;"	d
+CHARGECUR_SIZE	src/include/agigaram_lib.h	399;"	d
+CHARGER	src/include/agigaram_lib.h	390;"	d
+CHARGEVOL	src/include/agigaram_lib.h	373;"	d
+CHARGEVOL_SIZE	src/include/agigaram_lib.h	374;"	d
+CHGMAXVOL	src/include/agigaram_lib.h	375;"	d
+CHGMAXVOL_SIZE	src/include/agigaram_lib.h	376;"	d
+CLTT_DISABLE	src/include/agigaram_lib.h	/^    CLTT_DISABLE = 0x0,$/;"	e	enum:__anon1
+CLTT_ENABLE	src/include/agigaram_lib.h	/^    CLTT_ENABLE,$/;"	e	enum:__anon1
+CLTT_QUERY	src/include/agigaram_lib.h	/^    CLTT_QUERY,$/;"	e	enum:__anon1
+CL_SIZE	src/nv_backend_nvdimm.c	12;"	d	file:
+CPM_EN	src/include/agigaram_lib.h	/^  CPM_EN = 0xD,$/;"	e	enum:agigaram_register_table
+DATA_BYTES	src/include/nv_idx.h	12;"	d
+DBDEST	src/include/agigaram_lib.h	/^  DBDEST = 0x17,$/;"	e	enum:agigaram_register_table
+DENSITY	src/include/agigaram_lib.h	371;"	d
+DENSITY_SIZE	src/include/agigaram_lib.h	372;"	d
+DEP_FILE	IncludePre.mk	/^DEP_FILE = $(OBJS_DIR)\/dependent_file$/;"	m
+DLDSTAT	src/include/agigaram_lib.h	/^  DLDSTAT = 0x27,$/;"	e	enum:agigaram_register_table
+DO_BACKUP	src/include/agigaram_lib.h	244;"	d
+DO_CAP_MEASURE	src/include/agigaram_lib.h	252;"	d
+DO_ENABLE_CPM	src/include/agigaram_lib.h	257;"	d
+DO_FACTORY_RESET	src/include/agigaram_lib.h	255;"	d
+DO_RELEASE_NFIMG	src/include/agigaram_lib.h	250;"	d
+DO_RESTORE	src/include/agigaram_lib.h	247;"	d
+DO_SYSTEM_RESET	src/include/agigaram_lib.h	259;"	d
+EEPROM_ADDRH	src/include/agigaram_lib.h	/^  EEPROM_ADDRH = 0x3,$/;"	e	enum:agigaram_register_table
+EEPROM_ADDRL	src/include/agigaram_lib.h	/^  EEPROM_ADDRL = 0x2,$/;"	e	enum:agigaram_register_table
+EEPROM_BUSY	src/include/agigaram_lib.h	/^  EEPROM_BUSY  = 0x1,$/;"	e	enum:agigaram_register_table
+EEPROM_DATA	src/include/agigaram_lib.h	/^  EEPROM_DATA  = 0x4,$/;"	e	enum:agigaram_register_table
+EEPROM_MAX_BYTE	src/include/agigaram_lib.h	270;"	d
+EEPROM_NVDIMM	src/include/agigaram_lib.h	266;"	d
+EEPROM_PGEM	src/include/agigaram_lib.h	267;"	d
+EEPROM_READONLY_START	src/include/agigaram_lib.h	379;"	d
+EEPROM_SEL	src/include/agigaram_lib.h	/^  EEPROM_SEL   = 0x5,$/;"	e	enum:agigaram_register_table
+EEWREN	src/include/agigaram_lib.h	/^  EEWREN = 0x19,$/;"	e	enum:agigaram_register_table
+ENABLES	src/include/agigaram_lib.h	277;"	d
+ENABLES	src/include/agigaram_lib.h	330;"	d
+ENDUSR	src/include/agigaram_lib.h	321;"	d
+ENDUSR	src/include/agigaram_lib.h	367;"	d
+ENDUSR_SIZE	src/include/agigaram_lib.h	322;"	d
+ENDUSR_SIZE	src/include/agigaram_lib.h	368;"	d
+FACTORY_REST	src/include/agigaram_lib.h	/^  FACTORY_REST = 0x18,$/;"	e	enum:agigaram_register_table
+FAILURE	src/include/agigaram_lib.h	139;"	d
+FALSE	src/include/agigaram_lib.h	95;"	d
+FINISHE_FUNC	src/include/agigaram_ultracapmeasure_lib.h	/^typedef void (*FINISHE_FUNC)(void*,int);$/;"	t
+FWVER	src/include/agigaram_lib.h	309;"	d
+FWVER	src/include/agigaram_lib.h	357;"	d
+FWVER_SIZE	src/include/agigaram_lib.h	310;"	d
+FWVER_SIZE	src/include/agigaram_lib.h	358;"	d
+FW_SPEC_MAJOR_MASK	src/include/agigaram_lib.h	36;"	d
+FW_SPEC_V070	src/include/agigaram_lib.h	38;"	d
+FW_SPEC_V071	src/include/agigaram_lib.h	39;"	d
+FW_SPEC_V072	src/include/agigaram_lib.h	40;"	d
+FW_SPEC_V080	src/include/agigaram_lib.h	41;"	d
+FW_SPEC_V081	src/include/agigaram_lib.h	42;"	d
+FW_SPEC_VERSION	src/include/agigaram_lib.h	46;"	d
+GET_STR	src/include/agigaram_upgrade_lib.h	31;"	d
+GET_U16	src/include/agigaram_upgrade_lib.h	29;"	d
+GET_U32	src/include/agigaram_upgrade_lib.h	25;"	d
+GTG_1	src/include/agigaram_lib.h	/^  GTG_1 = 0x12,$/;"	e	enum:agigaram_register_table
+GTG_2	src/include/agigaram_lib.h	/^  GTG_2 = 0x13,$/;"	e	enum:agigaram_register_table
+HEADER_LEN	src/include/agigaram_upgrade_lib.h	35;"	d
+HWVER	src/include/agigaram_lib.h	311;"	d
+HWVER	src/include/agigaram_lib.h	359;"	d
+HWVER_SIZE	src/include/agigaram_lib.h	312;"	d
+HWVER_SIZE	src/include/agigaram_lib.h	360;"	d
+IDX_BYTES	src/include/nv_idx.h	10;"	d
+IDX_MAX	src/include/nv_idx.h	13;"	d
+IMG_HEADER	src/include/agigaram_upgrade_lib.h	/^}IMG_HEADER;$/;"	t	typeref:struct:IMG_HEADER_S
+IMG_HEADER_S	src/include/agigaram_upgrade_lib.h	/^typedef struct IMG_HEADER_S{$/;"	s
+INITIALCAP	src/include/agigaram_lib.h	414;"	d
+INIT_BACKEND	test/common_config.h	1;"	d
+INT16	src/include/agigaram_lib.h	/^typedef short INT16;$/;"	t
+INT32	src/include/agigaram_lib.h	/^typedef int INT32;$/;"	t
+INT8	src/include/agigaram_lib.h	/^typedef char INT8;$/;"	t
+INVALID_IDX	src/include/nv_idx.h	15;"	d
+IOCTL_EEPROM_BYTE_RW	src/include/agigaram_lib.h	70;"	d
+IOCTL_GET_NVDIMM_INFO	src/include/agigaram_lib.h	67;"	d
+IOCTL_GET_NVDIMM_NUMS	src/include/agigaram_lib.h	64;"	d
+IOCTL_GET_NVDIMM_SIZE	src/include/agigaram_lib.h	65;"	d
+IOCTL_MAGIC	src/include/agigaram_lib.h	59;"	d
+IOCTL_MAXNR	src/include/agigaram_lib.h	74;"	d
+IOCTL_SMBUS_BYTE_RW	src/include/agigaram_lib.h	62;"	d
+IOCTL_SMBUS_CLTT_CONTROL	src/include/agigaram_lib.h	63;"	d
+IOCTL_SPD_BYTE_RW	src/include/agigaram_lib.h	68;"	d
+IOCTL_SYNC_D_CACHE	src/include/agigaram_lib.h	66;"	d
+LASTCAP	src/include/agigaram_lib.h	293;"	d
+LASTCAP	src/include/agigaram_lib.h	341;"	d
+LASTGTG1	src/include/agigaram_lib.h	294;"	d
+LASTGTG1	src/include/agigaram_lib.h	342;"	d
+LASTGTG2	src/include/agigaram_lib.h	295;"	d
+LASTGTG2	src/include/agigaram_lib.h	343;"	d
+LASTTEMP	src/include/agigaram_lib.h	292;"	d
+LASTTEMP	src/include/agigaram_lib.h	340;"	d
+LEDS	src/include/agigaram_lib.h	/^  LEDS = 0x10,$/;"	e	enum:agigaram_register_table
+LEN_PER_TRANS	src/include/agigaram_upgrade_lib.h	32;"	d
+LIBS	IncludePre.mk	/^LIBS = -lNVKVStore $/;"	m
+LIBS	src/Makefile	/^LIBS = -lpthread$/;"	m
+LIB_DIRS	IncludePre.mk	/^LIB_DIRS = -L$(PROJ_ROOT)\/lib $/;"	m
+LIB_FULL_NAME	src/Makefile	/^LIB_FULL_NAME = ..\/lib\/lib$(LIB_NAME).a$/;"	m
+LIB_NAME	src/Makefile	/^LIB_NAME = NVKVStore$/;"	m
+LOG_DEBUG	src/include/common.h	13;"	d
+LOG_ERR	src/include/common.h	12;"	d
+LOG_INFO	src/include/common.h	14;"	d
+LOG_STR_BUFFER	src/include/agigaram_upgrade_lib.h	42;"	d
+MAX_CH	src/include/agigaram_lib.h	51;"	d
+MAX_CORE	src/include/agigaram_lib.h	49;"	d
+MAX_DIMM	src/include/agigaram_lib.h	52;"	d
+MAX_DIMMS_SUPPORT	src/include/agigaram_lib.h	54;"	d
+MAX_MEM_REGION	src/include/agigaram_lib.h	55;"	d
+MAX_NODE	src/include/agigaram_lib.h	50;"	d
+MFDATE	src/include/agigaram_lib.h	319;"	d
+MFDATE	src/include/agigaram_lib.h	365;"	d
+MFDATE_SIZE	src/include/agigaram_lib.h	320;"	d
+MFDATE_SIZE	src/include/agigaram_lib.h	366;"	d
+MKDIR	IncludePre.mk	/^MKDIR = mkdir$/;"	m
+MM_DATA	src/include/nv_mm.h	28;"	d
+MM_INDEX	src/include/nv_mm.h	27;"	d
+MM_TYPE	src/include/nv_mm.h	26;"	d
+NEF_CONSISTENT	src/include/nv_mm.h	14;"	d
+NEF_DATA	src/include/nv_mm.h	16;"	d
+NEF_DATA_TYPE	src/include/nv_mm.h	20;"	d
+NEF_GC	src/include/nv_mm.h	15;"	d
+NEF_KEY	src/include/nv_mm.h	19;"	d
+NEF_OP_ADD	src/include/nv_mm.h	17;"	d
+NEF_OP_UPDATE	src/include/nv_mm.h	18;"	d
+NEF_PERSIST	src/include/nv_mm.h	13;"	d
+NFPOOL	src/include/agigaram_lib.h	308;"	d
+NFPOOL	src/include/agigaram_lib.h	356;"	d
+NVS_SMB_BLK_CMD	src/include/agigaram_smbus_interface.h	/^}NVS_SMB_BLK_CMD;$/;"	t	typeref:struct:__anon5
+NVS_SMB_CMD	src/include/agigaram_smbus_interface.h	/^}NVS_SMB_CMD;$/;"	t	typeref:struct:__anon4
+NV_DATA_DATA_BYTES	src/include/nv_data.h	7;"	d
+NV_ENTRY	src/include/nv_mm.h	31;"	d
+NV_EQ	src/include/nv_mm.h	32;"	d
+NV_IDX	src/include/nv_mm.h	30;"	d
+NV_MM_ALIGN	src/include/nv_mm.h	11;"	d
+NV_NEQ	src/include/nv_mm.h	33;"	d
+OBJS	IncludePre.mk	/^OBJS = $(SRCS:%.c=$(OBJS_DIR)\/%.o)$/;"	m
+OBJS_DIR	IncludePre.mk	/^OBJS_DIR = obj$/;"	m
+PCA	src/include/agigaram_lib.h	323;"	d
+PCA	src/include/agigaram_lib.h	369;"	d
+PCA_SIZE	src/include/agigaram_lib.h	324;"	d
+PCA_SIZE	src/include/agigaram_lib.h	370;"	d
+PCBVER	src/include/agigaram_lib.h	317;"	d
+PCBVER	src/include/agigaram_lib.h	363;"	d
+PCBVER_SIZE	src/include/agigaram_lib.h	318;"	d
+PCBVER_SIZE	src/include/agigaram_lib.h	364;"	d
+PGEM_CHARGEVOL	src/include/agigaram_lib.h	393;"	d
+PGEM_CHARGEVOL_SIZE	src/include/agigaram_lib.h	394;"	d
+PGEM_CHGMAXVOL	src/include/agigaram_lib.h	395;"	d
+PGEM_CHGMAXVOL_SIZE	src/include/agigaram_lib.h	396;"	d
+PGEM_ENDUSR	src/include/agigaram_lib.h	410;"	d
+PGEM_ENDUSR_SIZE	src/include/agigaram_lib.h	411;"	d
+PGEM_HWVER	src/include/agigaram_lib.h	400;"	d
+PGEM_HWVER_SIZE	src/include/agigaram_lib.h	401;"	d
+PGEM_MFDATE	src/include/agigaram_lib.h	408;"	d
+PGEM_MFDATE_SIZE	src/include/agigaram_lib.h	409;"	d
+PGEM_PCA	src/include/agigaram_lib.h	412;"	d
+PGEM_PCA_SIZE	src/include/agigaram_lib.h	413;"	d
+PGEM_PCBVER	src/include/agigaram_lib.h	406;"	d
+PGEM_PCBVER_SIZE	src/include/agigaram_lib.h	407;"	d
+PGEM_SN	src/include/agigaram_lib.h	404;"	d
+PGEM_SN_SIZE	src/include/agigaram_lib.h	405;"	d
+POWERDET	src/include/agigaram_lib.h	397;"	d
+PROGRESS_FUNC	src/include/agigaram_upgrade_lib.h	/^typedef void (*PROGRESS_FUNC)(void*,int,int);$/;"	t
+PROJ_ROOT	src/Makefile	/^PROJ_ROOT = ..$/;"	m
+PROJ_ROOT	test/Makefile	/^PROJ_ROOT = ..$/;"	m
+PWRCYCS	src/include/agigaram_lib.h	290;"	d
+PWRCYCS	src/include/agigaram_lib.h	338;"	d
+PWRCYCS_SIZE	src/include/agigaram_lib.h	291;"	d
+PWRCYCS_SIZE	src/include/agigaram_lib.h	339;"	d
+PWR_MD_CPM	src/include/agigaram_lib.h	263;"	d
+PWR_MD_PGEM	src/include/agigaram_lib.h	262;"	d
+PWR_MD_STAT	src/include/agigaram_lib.h	/^  PWR_MD_STAT  = 0x16,$/;"	e	enum:agigaram_register_table
+PWR_MD_WATING	src/include/agigaram_lib.h	261;"	d
+RANLIB	IncludePre.mk	/^RANLIB = ranlib$/;"	m
+REG_INVALID	src/include/agigaram_lib.h	/^  REG_INVALID = 0xff$/;"	e	enum:agigaram_register_table
+RELEASE_NAND_IMG	src/include/agigaram_lib.h	/^  RELEASE_NAND_IMG = 0xC,$/;"	e	enum:agigaram_register_table
+RESET_SYSTEM	src/include/agigaram_lib.h	/^  RESET_SYSTEM = 0x1A,$/;"	e	enum:agigaram_register_table
+RESTORE	src/include/agigaram_lib.h	/^  RESTORE       = 0xB,$/;"	e	enum:agigaram_register_table
+RESTORE_RESULT	src/include/agigaram_lib.h	/^  RESTORE_RESULT= 0x15,$/;"	e	enum:agigaram_register_table
+RM	IncludePre.mk	/^RM = rm$/;"	m
+SDD	src/include/agigaram_lib.h	/^  SDD = 0x26,$/;"	e	enum:agigaram_register_table
+SDD_BLOCK	src/include/agigaram_lib.h	/^  SDD_BLOCK = 0x28,$/;"	e	enum:agigaram_register_table
+SIZE_BYTES	src/include/nv_idx.h	11;"	d
+SIZE_MAX	src/include/nv_idx.h	14;"	d
+SMB_BYTE_READ	src/include/agigaram_lib.h	76;"	d
+SMB_BYTE_WRITE	src/include/agigaram_lib.h	77;"	d
+SMB_WORD_READ	src/include/agigaram_lib.h	78;"	d
+SMB_WORD_WRITE	src/include/agigaram_lib.h	79;"	d
+SN	src/include/agigaram_lib.h	315;"	d
+SN	src/include/agigaram_lib.h	361;"	d
+SN_SIZE	src/include/agigaram_lib.h	316;"	d
+SN_SIZE	src/include/agigaram_lib.h	362;"	d
+SPD_MODULE_PART	src/include/agigaram_lib.h	57;"	d
+SPD_TYPE_DDR3	src/include/agigaram_lib.h	87;"	d
+SPD_TYPE_DDR4	src/include/agigaram_lib.h	88;"	d
+SRCS	src/Makefile	/^SRCS = common.c nv_idx.c nv_data.c nv_mm.c nv_map.c nv_backend_fs.c nv_backend_nvdimm.c nv_gc.c$/;"	m
+SRCS	test/Makefile	/^SRCS = test_nv_idx.c test_nv_data.c test_common.c test_nv_entry.c kvstore_status.c get_by_key.c get_by_index.c cpu_check.c clear_nvdimm.c latency_test.c workload_test.c put.c$/;"	m
+STDLD	src/include/agigaram_lib.h	/^  STDLD = 0x25,$/;"	e	enum:agigaram_register_table
+STR_LEN	src/include/agigaram_upgrade_lib.h	36;"	d
+SUB_DIRS	Makefile	/^SUB_DIRS = src test$/;"	m
+SUCCESS	src/include/agigaram_lib.h	138;"	d
+TARGET	IncludePre.mk	/^TARGET = $(SRCS:%.c=$(TARGET_DIR)\/%)$/;"	m
+TARGET_DIR	IncludePre.mk	/^TARGET_DIR = bin$/;"	m
+TEMPHIST	src/include/agigaram_lib.h	280;"	d
+TEMPHIST	src/include/agigaram_lib.h	383;"	d
+TEMPHIST_SIZE	src/include/agigaram_lib.h	281;"	d
+TEMPHIST_SIZE	src/include/agigaram_lib.h	384;"	d
+TEST	test/test_common.c	/^TEST(common, int2bin_len_32) {$/;"	f
+TEST	test/test_common.c	/^TEST(common, int2bin_len_8_1) {$/;"	f
+TEST	test/test_common.c	/^TEST(common, int2bin_len_8_2) {$/;"	f
+TEST	test/test_common.c	/^TEST(common, int2bin_len_8_3) {$/;"	f
+TEST	test/test_common.c	/^TEST(common, int2bin_len_8_4) {$/;"	f
+TEST	test/test_common.c	/^TEST(common, repeat_str_20) {$/;"	f
+TEST	test/test_nv_data.c	/^TEST(nv_data, set_next_idx_1) {$/;"	f
+TEST	test/test_nv_data.c	/^TEST(nv_data, set_next_idx_2) {$/;"	f
+TEST	test/test_nv_entry.c	/^TEST(nv_entry, nv_entry_is_flag_1) {$/;"	f
+TEST	test/test_nv_entry.c	/^TEST(nv_entry, nv_entry_is_flag_2) {$/;"	f
+TEST	test/test_nv_entry.c	/^TEST(nv_entry, nv_entry_is_flag_3) {$/;"	f
+TEST	test/test_nv_idx.c	/^TEST(nv_idx, set_invalid_key) {$/;"	f
+TEST	test/test_nv_idx.c	/^TEST(nv_idx, set_key_idx) {$/;"	f
+TEST	test/test_nv_idx.c	/^TEST(nv_idx, set_null_key) {$/;"	f
+TEST	test/test_nv_idx.c	/^TEST(nv_idx, set_size_1) {$/;"	f
+TEST	test/test_nv_idx.c	/^TEST(nv_idx, set_size_2) {$/;"	f
+TEST	test/test_nv_idx.c	/^TEST(nv_idx, set_valid_key) {$/;"	f
+TOTBACKS	src/include/agigaram_lib.h	298;"	d
+TOTBACKS	src/include/agigaram_lib.h	346;"	d
+TOTBACKS_SIZE	src/include/agigaram_lib.h	299;"	d
+TOTBACKS_SIZE	src/include/agigaram_lib.h	347;"	d
+TRUE	src/include/agigaram_lib.h	91;"	d
+T_LASTBU	src/include/agigaram_lib.h	296;"	d
+T_LASTBU	src/include/agigaram_lib.h	344;"	d
+T_LASTBU_SIZE	src/include/agigaram_lib.h	297;"	d
+T_LASTBU_SIZE	src/include/agigaram_lib.h	345;"	d
+T_LASTCH	src/include/agigaram_lib.h	300;"	d
+T_LASTCH	src/include/agigaram_lib.h	348;"	d
+T_LASTCH_SIZE	src/include/agigaram_lib.h	301;"	d
+T_LASTCH_SIZE	src/include/agigaram_lib.h	349;"	d
+T_LASTPF	src/include/agigaram_lib.h	288;"	d
+T_LASTPF_SIZE	src/include/agigaram_lib.h	289;"	d
+T_LASTRSTR	src/include/agigaram_lib.h	304;"	d
+T_LASTRSTR	src/include/agigaram_lib.h	352;"	d
+T_LASTRSTR_SIZE	src/include/agigaram_lib.h	305;"	d
+T_LASTRSTR_SIZE	src/include/agigaram_lib.h	353;"	d
+T_RUN	src/include/agigaram_lib.h	286;"	d
+T_RUN	src/include/agigaram_lib.h	335;"	d
+T_RUN_SIZE	src/include/agigaram_lib.h	287;"	d
+T_RUN_SIZE	src/include/agigaram_lib.h	336;"	d
+UINT16	src/include/agigaram_lib.h	/^typedef unsigned short UINT16;$/;"	t
+UINT32	src/include/agigaram_lib.h	/^typedef unsigned int UINT32;$/;"	t
+UINT8	src/include/agigaram_lib.h	/^typedef unsigned char UINT8;$/;"	t
+UNCORNF	src/include/agigaram_lib.h	306;"	d
+UNCORNF	src/include/agigaram_lib.h	354;"	d
+UNCORNF_SIZE	src/include/agigaram_lib.h	307;"	d
+UNCORNF_SIZE	src/include/agigaram_lib.h	355;"	d
+UNI_IMG_ID_FW	src/include/agigaram_upgrade_lib.h	38;"	d
+UNI_IMG_ID_SPD	src/include/agigaram_upgrade_lib.h	40;"	d
+UNI_IMG_ID_VPD	src/include/agigaram_upgrade_lib.h	39;"	d
+UPGRADE_DONE	src/include/agigaram_upgrade_lib.h	/^    UPGRADE_DONE = 1,$/;"	e	enum:__anon3
+UPGRADE_IGNORE	src/include/agigaram_upgrade_lib.h	/^    UPGRADE_IGNORE = -1,$/;"	e	enum:__anon3
+UPGRADE_NORMAL	src/include/agigaram_upgrade_lib.h	/^    UPGRADE_NORMAL = 0,$/;"	e	enum:__anon3
+USER	src/include/agigaram_lib.h	275;"	d
+USER	src/include/agigaram_lib.h	328;"	d
+USER_SIZE	src/include/agigaram_lib.h	276;"	d
+USER_SIZE	src/include/agigaram_lib.h	329;"	d
+VCAP	src/include/agigaram_lib.h	/^  VCAP = 0xF,$/;"	e	enum:agigaram_register_table
+V_REMAIN	src/include/agigaram_lib.h	302;"	d
+V_REMAIN	src/include/agigaram_lib.h	350;"	d
+V_REMAIN_SIZE	src/include/agigaram_lib.h	303;"	d
+V_REMAIN_SIZE	src/include/agigaram_lib.h	351;"	d
+_NV_COMMON_H	src/include/common.h	2;"	d
+_NV_DATA_H	src/include/nv_data.h	2;"	d
+_NV_GC_H	src/include/nv_gc.h	2;"	d
+_NV_IDX_H	src/include/nv_idx.h	2;"	d
+_NV_MAP_H	src/include/nv_map.h	2;"	d
+_NV_MM_H	src/include/nv_mm.h	2;"	d
+__AGIGARAM_ULTRACAPMEASURE_LIB_H__	src/include/agigaram_ultracapmeasure_lib.h	20;"	d
+__AGIGARAM_UPGRADE_LIB_H__	src/include/agigaram_upgrade_lib.h	20;"	d
+__GIGARAM_API_H__	src/include/agigaram_lib.h	20;"	d
+__NVRAM_SMBUS_INTERFACE_H__	src/include/agigaram_smbus_interface.h	20;"	d
+_data	src/include/nv_data.h	/^typedef struct _data {$/;"	s
+_entry	src/include/nv_mm.h	/^typedef struct _entry {$/;"	s
+_gc	src/nv_gc.c	/^void _gc(nv_entry *e) {$/;"	f
+_has_cycle	src/nv_map.c	/^bool _has_cycle(nv_idx *n, nv_idx *o) {$/;"	f
+_idx	src/include/nv_idx.h	/^typedef struct _idx {$/;"	s
+_idx_data	src/include/nv_idx.h	/^typedef struct _idx_data {$/;"	s
+_map	src/include/nv_map.h	/^typedef struct _map {	$/;"	s
+_map	test/workload_test.c	/^static std::map<std::string, std::string> _map;$/;"	v	file:
+_nv_driver	src/include/nv_mm.h	/^extern struct _nv_driver {$/;"	s
+address	src/include/agigaram_lib.h	/^  struct smbAddress address;  \/\/ SMBus Segment$/;"	m	struct:smbDevice	typeref:struct:smbDevice::smbAddress
+agigaram_fd	src/nv_backend_nvdimm.c	/^static int agigaram_fd;$/;"	v	file:
+agigaram_register_table	src/include/agigaram_lib.h	/^enum agigaram_register_table{$/;"	g
+bclear_timer	src/include/agigaram_ultracapmeasure_lib.h	/^    bool bclear_timer;$/;"	m	struct:ultracap_measure
+busSegment	src/include/agigaram_lib.h	/^  UINT16 busSegment:4;        \/\/ SMBus Segment$/;"	m	struct:smbAddress
+byte_count	src/include/agigaram_upgrade_lib.h	/^  int       byte_count;$/;"	m	struct:header_info
+capacitance_result	src/include/agigaram_ultracapmeasure_lib.h	/^    int  capacitance_result;\/\/ in percent of %$/;"	m	struct:ultracap_measure
+ch	src/include/agigaram_lib.h	/^  int               ch;$/;"	m	struct:nvdimm_device
+clflush	src/nv_backend_nvdimm.c	/^inline void clflush(volatile void *p)$/;"	f
+commit	src/include/nv_mm.h	/^	void (*commit)();$/;"	m	struct:_nv_driver
+compId	src/include/agigaram_lib.h	/^  UINT16            compId;   \/\/ SPD, MTS, DCP_ISL9072X, DCP_AD5247, DCP_UP6262, DCP_AD5337$/;"	m	struct:smbDevice
+controller	src/include/agigaram_lib.h	/^  UINT16 controller:4;        \/\/ JKT, ICH, etc...$/;"	m	struct:smbAddress
+data	src/include/agigaram_lib.h	/^  UINT8 data[4];  \/\/Data$/;"	m	struct:smb_command
+data	src/include/agigaram_smbus_interface.h	/^    unsigned char data;$/;"	m	struct:__anon4
+data	src/include/agigaram_smbus_interface.h	/^    unsigned char data[64];$/;"	m	struct:__anon5
+data	src/include/nv_data.h	/^	char data[NV_DATA_DATA_BYTES];$/;"	m	struct:_data
+data	src/include/nv_idx.h	/^	char data[DATA_BYTES];$/;"	m	struct:_idx
+data	src/include/nv_idx.h	/^	void *data;$/;"	m	struct:_idx_data
+data	src/include/nv_mm.h	/^	char data[63];$/;"	m	struct:_entry
+data_idx	src/include/nv_idx.h	/^	char data_idx[IDX_BYTES];$/;"	m	struct:_idx
+ddrType	src/include/agigaram_lib.h	/^  int               ddrType;$/;"	m	struct:nvdimm_device
+dev	src/include/agigaram_lib.h	/^  struct    nvdimm_device dev;$/;"	m	struct:nvdimm_info	typeref:struct:nvdimm_info::nvdimm_device
+dev_idx	src/include/agigaram_smbus_interface.h	/^    unsigned char dev_idx;$/;"	m	struct:__anon4
+dev_idx	src/include/agigaram_smbus_interface.h	/^    unsigned char dev_idx;$/;"	m	struct:__anon5
+dev_index	src/include/agigaram_lib.h	/^  UINT8 dev_index;   \/\/index to locate the nvdimm device in this system, default 0$/;"	m	struct:smb_command
+deviceType	src/include/agigaram_lib.h	/^  UINT16 deviceType:4;        \/\/ '0011' specifies TSOD, '1010' specifies EEPROM's, '0101' specifies other$/;"	m	struct:smbAddress
+dimm	src/include/agigaram_lib.h	/^  int               dimm;$/;"	m	struct:nvdimm_device
+dimm_index	src/include/agigaram_ultracapmeasure_lib.h	/^    int  dimm_index;$/;"	m	struct:ultracap_measure
+entry_count	test/common_config.h	/^static int entry_count = mm_size \/ 64;$/;"	v
+flag	src/include/nv_data.h	/^	char flag;$/;"	m	struct:_data
+flag	src/include/nv_idx.h	/^	char flag;$/;"	m	struct:_idx
+flag	src/include/nv_mm.h	/^	char flag;$/;"	m	struct:_entry
+flush	src/include/nv_mm.h	/^	void (*flush)(void *, size_t);$/;"	m	struct:_nv_driver
+fpga_str	src/include/agigaram_upgrade_lib.h	/^    unsigned char   fpga_str[9];$/;"	m	struct:IMG_HEADER_S
+fpga_sz	src/include/agigaram_upgrade_lib.h	/^    unsigned int    fpga_sz;$/;"	m	struct:IMG_HEADER_S
+fw_str	src/include/agigaram_upgrade_lib.h	/^    unsigned char   fw_str[9];$/;"	m	struct:IMG_HEADER_S
+fw_sz	src/include/agigaram_upgrade_lib.h	/^    unsigned int    fw_sz;$/;"	m	struct:IMG_HEADER_S
+generate_random_str	src/common.c	/^const char* generate_random_str(char *buf, size_t size) {$/;"	f
+get_random_num	src/common.c	/^int get_random_num(int limit) {$/;"	f
+get_random_str	src/common.c	/^const char* get_random_str(char *buf, size_t size) {$/;"	f
+gtg	test/clear_nvdimm.c	/^int gtg(unsigned char nvdimm_idx)$/;"	f
+header_info	src/include/agigaram_upgrade_lib.h	/^struct header_info{$/;"	s
+imcId	src/include/agigaram_lib.h	/^  UINT16            imcId;     \/\/ Memory Controller ID$/;"	m	struct:smbDevice
+img_checksum	src/include/agigaram_upgrade_lib.h	/^  UINT32    img_checksum;$/;"	m	struct:header_info
+img_end	src/include/agigaram_upgrade_lib.h	/^  UINT32    img_end;$/;"	m	struct:header_info
+img_start	src/include/agigaram_upgrade_lib.h	/^  UINT32    img_start;$/;"	m	struct:header_info
+init_fs_backend	src/nv_backend_fs.c	/^void init_fs_backend() {$/;"	f
+init_nvdimm_backend	src/nv_backend_nvdimm.c	/^void init_nvdimm_backend() {$/;"	f
+int2bin	src/common.c	/^char *int2bin(int a, char *buffer, int buf_size) {$/;"	f
+key_idx	src/include/nv_idx.h	/^	unsigned int key_idx;$/;"	m	struct:_idx
+len	src/include/agigaram_smbus_interface.h	/^    unsigned char len;$/;"	m	struct:__anon5
+main	test/clear_nvdimm.c	/^int main() {$/;"	f
+main	test/cpu_check.c	/^int main(int argc, char **argv)$/;"	f
+main	test/get_by_index.c	/^int main() {$/;"	f
+main	test/get_by_key.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	test/kvstore_status.c	/^int main() {$/;"	f
+main	test/latency_test.c	/^int main() {$/;"	f
+main	test/put.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	test/workload_test.c	/^int main() {$/;"	f
+manufactureID	src/include/agigaram_lib.h	/^  unsigned char     manufactureID[SPD_MODULE_PART+1];$/;"	m	struct:nvdimm_device
+map	src/include/nv_map.h	/^	std::map<std::string, nv_idx *> map;$/;"	m	struct:_map
+mb	src/include/nv_mm.h	22;"	d
+measure_done_call_func	src/include/agigaram_ultracapmeasure_lib.h	/^    void (*measure_done_call_func)(void*,int);$/;"	m	struct:ultracap_measure
+mm_size	src/nv_mm.c	/^static size_t mm_size;$/;"	v	file:
+mm_size	test/common_config.h	/^static long mm_size = 1024L * 1024 * 1024;$/;"	v
+mm_start	src/nv_mm.c	/^static void *mm_start;$/;"	v	file:
+mmap	src/include/nv_mm.h	/^	void *(*mmap)(const char*, long);$/;"	m	struct:_nv_driver
+munmap	src/include/nv_mm.h	/^	void (*munmap)(void *, size_t);$/;"	m	struct:_nv_driver
+native_cpuid	test/cpu_check.c	/^static inline void native_cpuid(unsigned int *eax, unsigned int *ebx,$/;"	f	file:
+next	src/include/agigaram_lib.h	/^  struct nvdimm_device* next; $/;"	m	struct:nvdimm_device	typeref:struct:nvdimm_device::nvdimm_device
+next_idx	src/include/nv_data.h	/^	char next_idx[IDX_BYTES];$/;"	m	struct:_data
+node	src/include/agigaram_lib.h	/^  int               node;$/;"	m	struct:nvdimm_device
+nvCtl	src/include/agigaram_lib.h	/^  struct smbDevice  nvCtl;      \/\/NVDIMM Controller SMBus Salve address$/;"	m	struct:nvdimm_device	typeref:struct:nvdimm_device::smbDevice
+nv_calulate_ptr	src/include/common.h	/^inline void *nv_calulate_ptr(void *a, unsigned offset) {$/;"	f
+nv_data	src/include/nv_data.h	/^} __attribute__((packed)) nv_data;$/;"	t	typeref:struct:_data
+nv_data_build	src/nv_data.c	/^int nv_data_build(nv_idx_data *value, unsigned additional, $/;"	f
+nv_data_get_data	src/nv_data.c	/^nv_idx_data *nv_data_get_data(nv_idx *i) {$/;"	f
+nv_data_get_data_from_nv_idx	src/nv_data.c	/^nv_idx_data *nv_data_get_data_from_nv_idx(nv_idx *i) {$/;"	f
+nv_data_get_next_idx	src/nv_data.c	/^unsigned nv_data_get_next_idx(nv_data *d) {$/;"	f
+nv_data_init	src/nv_data.c	/^int nv_data_init(nv_data *d) {$/;"	f
+nv_data_set_data	src/nv_data.c	/^int nv_data_set_data(nv_idx *i, nv_idx_data *value) {$/;"	f
+nv_data_set_key	src/nv_data.c	/^int nv_data_set_key(nv_idx *i, const char* key, size_t length) {$/;"	f
+nv_data_set_next_idx	src/nv_data.c	/^int nv_data_set_next_idx(nv_data *d, size_t val) {$/;"	f
+nv_data_store	src/nv_data.c	/^size_t nv_data_store(nv_data *d, nv_idx_data *value, int offset) {$/;"	f
+nv_data_str	src/nv_data.c	/^const char* nv_data_str(nv_data *d, char* buf, size_t length) {$/;"	f
+nv_driver	src/nv_mm.c	/^struct _nv_driver nv_driver;$/;"	v	typeref:struct:_nv_driver
+nv_entry	src/include/nv_mm.h	/^} __attribute__((packed)) nv_entry;$/;"	t	typeref:struct:_entry
+nv_entry_change_flag	src/include/nv_mm.h	/^inline void nv_entry_change_flag(nv_entry *e, short flag) {$/;"	f
+nv_entry_get_entry	src/nv_mm.c	/^nv_entry *nv_entry_get_entry(unsigned index) {$/;"	f
+nv_entry_get_index	src/nv_mm.c	/^unsigned nv_entry_get_index(nv_entry *e) {$/;"	f
+nv_entry_is_flag	src/include/nv_mm.h	/^inline bool nv_entry_is_flag(nv_entry *e, short flag) {$/;"	f
+nv_entry_set_flag	src/include/nv_mm.h	/^inline void nv_entry_set_flag(nv_entry *e, short flag) {$/;"	f
+nv_entry_unset_flag	src/include/nv_mm.h	/^inline void nv_entry_unset_flag(nv_entry *e, short flag) {$/;"	f
+nv_fs_flush	src/nv_backend_fs.c	/^void nv_fs_flush(void *m, size_t length) {$/;"	f
+nv_fs_map	src/nv_backend_fs.c	/^void *nv_fs_map(const char* filepath, long size) {$/;"	f
+nv_fs_pcommit	src/nv_backend_fs.c	/^void nv_fs_pcommit() {$/;"	f
+nv_fs_unmap	src/nv_backend_fs.c	/^void nv_fs_unmap(void *m, size_t size) {$/;"	f
+nv_gc_process	src/nv_gc.c	/^void nv_gc_process(nv_idx *i) {$/;"	f
+nv_idx	src/include/nv_idx.h	/^} __attribute__((packed)) nv_idx;$/;"	t	typeref:struct:_idx
+nv_idx_copy_data	src/nv_idx.c	/^unsigned nv_idx_copy_data(nv_idx *i, void *target, unsigned size, bool keep_di) {$/;"	f
+nv_idx_data	src/include/nv_idx.h	/^} nv_idx_data;$/;"	t	typeref:struct:_idx_data
+nv_idx_free_data	src/nv_idx.c	/^void nv_idx_free_data(nv_idx_data *value) {$/;"	f
+nv_idx_get_data	src/nv_idx.c	/^nv_idx_data *nv_idx_get_data(nv_idx *i, bool keep_di) {$/;"	f
+nv_idx_get_data_idx	src/nv_idx.c	/^unsigned nv_idx_get_data_idx(nv_idx *i) {$/;"	f
+nv_idx_get_key	src/nv_idx.c	/^inline const char* nv_idx_get_key(nv_idx *i) {$/;"	f
+nv_idx_get_key_idx	src/include/nv_idx.h	/^inline unsigned int nv_idx_get_key_idx(nv_idx *i) {$/;"	f
+nv_idx_get_prev_key_idx	src/include/nv_idx.h	/^inline unsigned int nv_idx_get_prev_key_idx(nv_idx *i) {$/;"	f
+nv_idx_get_size	src/nv_idx.c	/^unsigned nv_idx_get_size(nv_idx *i) {$/;"	f
+nv_idx_init	src/nv_idx.c	/^inline int nv_idx_init(nv_idx *i) {$/;"	f
+nv_idx_init_data	src/nv_idx.c	/^nv_idx_data *nv_idx_init_data(nv_idx_data *value, void *data, size_t size) {$/;"	f
+nv_idx_set_data	src/nv_idx.c	/^int nv_idx_set_data(nv_idx *i, void *data, size_t size, bool keep_di) {$/;"	f
+nv_idx_set_data_idx	src/nv_idx.c	/^int nv_idx_set_data_idx(nv_idx *i, unsigned val) {$/;"	f
+nv_idx_set_key	src/nv_idx.c	/^int nv_idx_set_key(nv_idx *i, const char* name) {$/;"	f
+nv_idx_set_key_idx	src/include/nv_idx.h	/^inline void nv_idx_set_key_idx(nv_idx *i, unsigned int key_idx) {$/;"	f
+nv_idx_set_prev_key_idx	src/include/nv_idx.h	/^inline int nv_idx_set_prev_key_idx(nv_idx *i, unsigned int val) {$/;"	f
+nv_idx_set_size	src/nv_idx.c	/^int nv_idx_set_size(nv_idx *i, size_t size) {$/;"	f
+nv_idx_str	src/nv_idx.c	/^const char* nv_idx_str(nv_idx *i, char* buf, size_t length) {$/;"	f
+nv_map	src/include/nv_map.h	/^} nv_map;$/;"	t	typeref:struct:_map
+nv_map_get	src/nv_map.c	/^nv_idx_data *nv_map_get(nv_map *map, const char *key) {$/;"	f
+nv_map_init	src/nv_map.c	/^int nv_map_init(nv_map *nvm) {$/;"	f
+nv_map_init_value	src/nv_map.c	/^inline nv_idx_data *nv_map_init_value(nv_idx_data *value, $/;"	f
+nv_map_put	src/nv_map.c	/^int nv_map_put(nv_map *map, const char *key, nv_idx_data *value) {$/;"	f
+nv_map_remove	src/nv_map.c	/^int nv_map_remove(nv_map *map, const char *key) {$/;"	f
+nv_map_size	src/include/nv_map.h	/^inline int nv_map_size(nv_map *map) {$/;"	f
+nv_mm_commit	src/nv_mm.c	/^void nv_mm_commit() {$/;"	f
+nv_mm_flush	src/nv_mm.c	/^void nv_mm_flush(void *m, size_t size) {$/;"	f
+nv_mm_flush_commit	src/nv_mm.c	/^void nv_mm_flush_commit(void *m, size_t size) {$/;"	f
+nv_mm_get_addr	src/nv_mm.c	/^void *nv_mm_get_addr() {$/;"	f
+nv_mm_get_entry	src/nv_mm.c	/^nv_entry *nv_mm_get_entry(MM_TYPE type) {$/;"	f
+nv_mm_get_unused_count	src/nv_mm.c	/^int nv_mm_get_unused_count() {$/;"	f
+nv_mm_get_used	src/nv_mm.c	/^std::deque<nv_entry *> *nv_mm_get_used() {$/;"	f
+nv_mm_init	src/nv_mm.c	/^void nv_mm_init(int count) {$/;"	f
+nv_mm_mmap	src/nv_mm.c	/^void nv_mm_mmap(const char* path, long size, int entry_count) {$/;"	f
+nv_mm_return_entry	src/nv_mm.c	/^void nv_mm_return_entry(nv_entry *e) {$/;"	f
+nv_mm_unmap	src/nv_mm.c	/^void nv_mm_unmap() {$/;"	f
+nv_nvdimm_flush	src/nv_backend_nvdimm.c	/^void nv_nvdimm_flush(void *m, size_t length) {$/;"	f
+nv_nvdimm_map	src/nv_backend_nvdimm.c	/^void *nv_nvdimm_map(const char* filepath, long size) {$/;"	f
+nv_nvdimm_munmap	src/nv_backend_nvdimm.c	/^void nv_nvdimm_munmap(void *m, size_t size) {$/;"	f
+nv_nvdimm_pcommit	src/nv_backend_nvdimm.c	/^void nv_nvdimm_pcommit() {$/;"	f
+nvdimm_device	src/include/agigaram_lib.h	/^struct nvdimm_device{$/;"	s
+nvdimm_info	src/include/agigaram_lib.h	/^struct nvdimm_info{$/;"	s
+para	src/include/agigaram_ultracapmeasure_lib.h	/^    void* para;$/;"	m	struct:ultracap_measure
+pgem_fw_str	src/include/agigaram_upgrade_lib.h	/^    unsigned char   pgem_fw_str[9];$/;"	m	struct:IMG_HEADER_S
+pgem_fw_sz	src/include/agigaram_upgrade_lib.h	/^    unsigned int    pgem_fw_sz;$/;"	m	struct:IMG_HEADER_S
+prev_key_idx	src/include/nv_idx.h	/^	unsigned int prev_key_idx;$/;"	m	struct:_idx
+print_binary	test/cpu_check.c	/^void print_binary(int number)$/;"	f
+reg	src/include/agigaram_lib.h	/^  UINT8 reg;   \/\/Register offset$/;"	m	struct:smb_command
+regNo	src/include/agigaram_smbus_interface.h	/^    unsigned char regNo;$/;"	m	struct:__anon4
+regNo	src/include/agigaram_smbus_interface.h	/^    unsigned char regNo;$/;"	m	struct:__anon5
+repeat_str	src/common.c	/^const char* repeat_str(const char* data, char *buf, int length) {$/;"	f
+rmb	src/include/nv_mm.h	23;"	d
+rsvd	src/include/agigaram_lib.h	/^  UINT16 rsvd:1;              \/\/ reserved bit$/;"	m	struct:smbAddress
+rw	src/include/agigaram_lib.h	/^  UINT8 rw;   \/\/Read or Write, 0 -- Read, 1 -- Write$/;"	m	struct:smb_command
+rw	src/include/agigaram_smbus_interface.h	/^    unsigned char rw;$/;"	m	struct:__anon4
+rw	src/include/agigaram_smbus_interface.h	/^    unsigned char rw;$/;"	m	struct:__anon5
+size	src/include/nv_idx.h	/^	char size[SIZE_BYTES]; 	\/\/16MB$/;"	m	struct:_idx
+size	src/include/nv_idx.h	/^	size_t size;$/;"	m	struct:_idx_data
+sizeGB	src/include/agigaram_lib.h	/^  int               sizeGB;$/;"	m	struct:nvdimm_device
+smbAddress	src/include/agigaram_lib.h	/^struct smbAddress {$/;"	s
+smbDevice	src/include/agigaram_lib.h	/^struct smbDevice {$/;"	s
+smb_command	src/include/agigaram_lib.h	/^struct smb_command{$/;"	s
+spd	src/include/agigaram_lib.h	/^  struct smbDevice  spd;        \/\/NVDIMM Standard SPD Salve address$/;"	m	struct:nvdimm_device	typeref:struct:nvdimm_device::smbDevice
+spdSize	src/include/agigaram_lib.h	/^  UINT16			spdSize;	$/;"	m	struct:smbDevice
+status	src/include/agigaram_lib.h	/^  int               status;$/;"	m	struct:nvdimm_device
+strapAddress	src/include/agigaram_lib.h	/^  UINT16 strapAddress:3;      \/\/ SMBus slave address (0...7)$/;"	m	struct:smbAddress
+string	test/workload_test.c	/^static std::map<std::string, std::string> _map;$/;"	m	class:std	file:
+temp_key	src/nv_idx.c	/^static const char* temp_key = "test";$/;"	v	file:
+ultracap_measure	src/include/agigaram_ultracapmeasure_lib.h	/^struct ultracap_measure{$/;"	s
+unused	src/nv_mm.c	/^static std::deque<nv_entry *> unused;$/;"	v	file:
+upgrade_progress	src/include/agigaram_upgrade_lib.h	/^}upgrade_progress;$/;"	t	typeref:enum:__anon3
+used	src/nv_mm.c	/^static std::deque<nv_entry *> used;$/;"	v	file:
+wmb	src/include/nv_mm.h	24;"	d
